@@ -1,0 +1,43 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Directory - Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Software Directory</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="software-list.html">Software List</a></li>
+                <li><a href="vendor.html">Vendors</a></li>
+                <li><a href="upload.html">Upload</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="search">
+            <input type="text" id="search-bar" placeholder="Search for software or vendors">
+            <button onclick="searchSoftware()">Search</button>
+        </section>
+
+        <section id="featured">
+            <h2>Featured Vendors</h2>
+            <div class="vendor-list">
+                <!-- Vendor profiles go here -->
+            </div>
+            <h2>Featured Software</h2>
+            <div class="software-list">
+                <!-- Software profiles go here -->
+            </div>
+        </section>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
